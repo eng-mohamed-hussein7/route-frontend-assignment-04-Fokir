@@ -40,7 +40,7 @@ The project is a full recreation of the **Fokir portfolio website** using only *
 ---
 
 ## 🔗 Live Demo
-*([Fokir](https://eng-mohamed-hussein7.github.io/route-frontend-assignment-04-Fokir/))*
+*[Fokir](https://eng-mohamed-hussein7.github.io/route-frontend-assignment-04-Fokir/)*
 
 ---
 
