@@ -1,0 +1,621 @@
+/* XS */
+@media screen and (max-width: 640px) {
+  /* Global */
+  .xs-100 {
+    width: 100%;
+  }
+  .xs-50 {
+    width: 50%;
+  }
+  .xs-33 {
+    width: 33.3333%;
+  }
+  .xs-25 {
+    width: 25%;
+  }
+  div.section-title h2 {
+    font-size: 32px;
+  }
+  button {
+    width: 120px;
+    font-size: 14px;
+    height: 40px;
+  }
+  .btn {
+    font-size: 14px;
+    height: 40px;
+    padding: 12px;
+    width: 99px;
+  }
+  /* Navbar */
+  div.hero-section div.opacity-bg-color div.navbar div.navbar-links {
+    display: none;
+  }
+  div.hero-section div.opacity-bg-color div.navbar div.container {
+    width: 75%;
+    margin: 0 auto;
+  }
+  div.navbar-icon {
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+  div.navbar div.navbar-bar {
+    display: block;
+    padding: 15px;
+  }
+  div.navbar div.navbar-bar i {
+    padding: 15px 0 0 0;
+    font-size: 25px;
+    color: #fff;
+  }
+  /* Start home section */
+  .home h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  .home h1 {
+    font-size: 27px;
+    margin: 0;
+  }
+  .home h4 {
+    font-size: 13px;
+    margin: 0;
+  }
+  /* End home section */
+  /* Start About Section */
+  div.about div.container div.about-image {
+    width: 100%;
+  }
+  div.about div.container div.about-content {
+    width: 100%;
+  }
+  div.about div.container {
+    padding: 0;
+  }
+  div.about div.container div.about-image div.border-image {
+    border: 0;
+  }
+
+  div.about div.container div.about-image div.border-image div.image-container {
+    transform: translate(0, 0);
+  }
+  div.about
+    div.container
+    div.about-image
+    div.border-image
+    div.image-container
+    div.social-links
+    ul {
+    transform: translate(13%, 189%);
+  }
+  div.about div.container div.about-content {
+    padding-left: 0;
+  }
+  div.about div.container div.about-content div.about-info-list-left {
+    width: 100%;
+  }
+  div.about div.container div.about-content div.about-info-list-right {
+    padding: 25px 0 0 0;
+  }
+
+  /* End About Section */
+  /* Start Services Section */
+  div.section-title h2::before {
+    width: 56%;
+    top: 128.5%;
+    left: 22%;
+  }
+  div.section-title h2::after {
+    width: 75px;
+    height: 7px;
+    top: 118%;
+    left: 37%;
+  }
+
+  div.services div.container div.service-item h3 {
+    font-weight: 500;
+  }
+  /* End Services Section */
+  /* Start Portfolio Section */
+  div.portfolio div.container div.section-title h2::before {
+    top: 128%;
+  }
+  div.portfolio div.portfolio-number-talk div.container {
+    padding-block: 25px;
+  }
+  div.portfolio div.portfolio-number-talk div.container div.number-talk-data {
+    padding-block: 25px;
+  }
+  /* End Portfolio Section */
+  /* Start Testimonial Section */
+  div.container {
+    width: 88%;
+  }
+  div.testimonel-item div.testimonel-image {
+    width: 40%;
+    transform: translate(93px, -22px);
+  }
+  div.testimonel-item div.testimonel-content {
+    width: 100%;
+    padding: 0 0 24px 20px;
+  }
+  div.testimonel-item {
+    width: 100%;
+  }
+  div.testimonel-item {
+    background: linear-gradient(
+      137deg,
+      rgba(255, 49, 92, 1) 22%,
+      rgba(241, 241, 241, 1) 0
+    );
+  }
+  /* End Testimonial Section */
+  /* Start Blog Section */
+
+  /* End Blog Section */
+  /* Start Contact Us Section */
+  div.contact div.container div.section-title h2::after {
+    width: 39%;
+    left: 31.5%;
+  }
+  div.contact div.container div.section-title h2::before {
+    width: 84%;
+    left: 8.5%;
+  }
+  div.contact div.container form div.row div.column {
+    width: 100%;
+  }
+  div.contact div.container form div.row div.input-name,
+  div.contact div.container form div.row div.input-mail {
+    margin: 15px 0 0 0;
+  }
+  div.contact div.container {
+    width: 90%;
+  }
+
+  /* End Contact Us Section */
+  /* Start Footer Section Style */
+  div.footer {
+    padding: 30px 0;
+  }
+
+  div.footer div.container div.footer-icon ul li {
+    width: 8.2%;
+  }
+  /* Start End Section Style */
+}
+/* sm */
+@media screen and (min-width: 640px) {
+  /* Global */
+  .sm-100 {
+    width: 100%;
+  }
+  .sm-50 {
+    width: 50%;
+  }
+  .sm-33 {
+    width: 33.3333%;
+  }
+  .sm-25 {
+    width: 25%;
+  }
+  div.section-title h2 {
+    font-size: 32px;
+  }
+  div.section-title h2::after {
+    width: 71px;
+    height: 9px;
+    top: 41px;
+    left: 174px;
+  }
+  div.section-title h2::before {
+    width: 160px;
+    top: 46px;
+    left: 130px;
+  }
+  /* Navbar */
+  div.hero-section div.opacity-bg-color div.navbar div.navbar-links {
+    display: none;
+  }
+  div.navbar div.navbar-bar {
+    display: block;
+    padding: 15px;
+  }
+  div.navbar div.navbar-bar i {
+    padding: 0;
+    font-size: 25px;
+    color: #fff;
+  }
+  /* Start Home Section style */
+  .home h3 {
+    font-size: 22px;
+  }
+  .home h1 {
+    font-size: 33px;
+    margin: 0;
+  }
+  .home h4 {
+    font-size: 20px;
+  }
+  /* End Home Section style */
+  /* Start About Section style */
+  div.about div.container div.about-image {
+    width: 100%;
+  }
+  div.about div.container div.about-content {
+    width: 100%;
+  }
+  div.about div.container {
+    padding: 0;
+  }
+  div.about div.container div.about-image div.border-image {
+    border: 0;
+    border: 1px solid #555;
+  }
+  div.about div.container div.about-image div.border-image div.image-container {
+    transform: translate(0, 0);
+  }
+  div.about div.container div.about-content {
+    padding-left: 0;
+  }
+  div.about div.container div.about-content div.about-info-list-left {
+    width: 100%;
+  }
+  div.about div.container div.about-content div.about-info-list-right {
+    padding: 25px 0 0 0;
+  }
+  /* End About Section style */
+  /* Start Services Section style */
+  div.services div.container div.service-item h3 {
+    font-size: 21px;
+    font-weight: 500;
+  }
+
+  /* End Services Section style */
+  /* Start Portfolio Section style */
+  div.portfolio div.portfolio-number-talk div.container div.number-talk-data {
+    padding-block: 27px;
+  }
+  /* End Portfolio Section style */
+  /* Start Testimonial Section */
+
+  div.container {
+    width: 65%;
+  }
+  div.testimonel-item div.testimonel-image {
+    width: 36%;
+    transform: translate(120px, -13px);
+  }
+  div.testimonel-item div.testimonel-content {
+    width: 100%;
+    padding: 0 0 24px 20px;
+  }
+  div.testimonel-item {
+    width: 100%;
+  }
+  div.testimonel-item {
+    background: linear-gradient(
+      137deg,
+      rgba(255, 49, 92, 1) 22%,
+      rgba(241, 241, 241, 1) 0
+    );
+  }
+  /* End Testimonial Section */
+  /* Start Contact Us Section */
+  div.contact div.container div.section-title h2::before {
+    width: 160px;
+    left: 128px;
+  }
+  div.contact div.container div.section-title h2::after {
+    width: 70px;
+    left: 173px;
+  }
+  div.contact div.container form div.row div.column {
+    width: 100%;
+  }
+  div.contact div.container form div.row div.input-name,
+  div.contact div.container form div.row div.input-mail {
+    margin: 15px 0 0 0;
+  }
+
+  div.contact div.container {
+    width: 65%;
+  }
+  /* End Contact Us Section */
+  /* Start Footer Section Style */
+  div.footer {
+    padding: 30px 0;
+  }
+
+  div.footer div.container div.footer-icon ul li {
+    width: 8.2%;
+  }
+  /* Start Footer Section Style */
+}
+
+/* md */
+@media screen and (min-width: 768px) {
+  /* Global */
+  .md-100 {
+    width: 100%;
+  }
+  .md-50 {
+    width: 50%;
+  }
+  .md-33 {
+    width: 33.3333%;
+  }
+  .md-25 {
+    width: 25%;
+  }
+  div.container {
+    width: 95%;
+  }
+  /* navbar */
+  div.navbar div.navbar-bar {
+    display: none;
+  }
+  div.hero-section div.opacity-bg-color div.navbar div.navbar-links {
+    display: block;
+  }
+  .home h1 {
+    font-size: 61px;
+  }
+  div.section-title h2::after {
+    left: 331px;
+  }
+  div.section-title h2::before {
+    left: 285px;
+  }
+  /* Start About style */
+  div.about div.container div.about-image div.border-image div.image-container {
+    transform: translate(0, 0);
+  }
+  div.about div.container div.about-image div.border-image {
+    border: 1px solid #555;
+  }
+  div.about div.container {
+    padding-left: 0;
+  }
+  div.about div.container div.about-image {
+    width: 50%;
+  }
+  div.about div.container div.about-content {
+    width: 50%;
+    padding: 0 0 0 18px;
+  }
+  div.about div.container div.about-content div.about-description h2 {
+    margin: 25px 0 0 0;
+  }
+  div.about div.container div.about-content div.about-description p {
+    margin-bottom: 9px;
+    padding-bottom: 5px;
+  }
+  div.about div.container div.about-content div.about-info-list-left {
+    width: 50%;
+  }
+  div.about div.container div.about-content ul li {
+    font-size: 13px;
+  }
+  div.about div.container div.about-content div.about-info-list-left {
+    padding-right: 5px;
+  }
+  div.about div.container div.about-content div.about-info-list-right {
+    padding-left: 5px;
+    padding: 0;
+  }
+  .padding-botton {
+    padding-bottom: 15px;
+  }
+  /* End About style */
+  /* Start Testimonel style */
+  div.testimonel-item {
+    width: 100%;
+    background: linear-gradient(
+      137deg,
+      rgba(255, 49, 92, 1) 19%,
+      rgba(241, 241, 241, 1) 0
+    );
+  }
+  div.testimonel-item div.testimonel-image {
+    width: 20%;
+    transform: translate(0, 0);
+  }
+  div.testimonel-item div.testimonel-content {
+    width: 80%;
+    padding-block: 20px 33px;
+  }
+  /* End Testimonel style */
+  /* Start Contact Us style */
+  div.contact div.container div.section-title h2::before {
+    left: 278px;
+  }
+  div.contact div.container div.section-title h2::after {
+    left: 322px;
+  }
+  div.contact div.container {
+    width: 93%;
+  }
+  div.contact div.container form div.row div.column {
+    width: 50%;
+  }
+  div.contact div.container form div.row div.input-name {
+    margin-right: 15px;
+  }
+  div.contact div.container form div.row div.input-mail {
+    margin-left: 15px;
+  }
+  /* End Contact Us style */
+  /* Start Footer style */
+  div.footer div.container div.footer-icon ul li {
+    width: 5.5%;
+  }
+  /* End Testimonel style */
+}
+/* lg */
+@media screen and (min-width: 1024px) {
+  /* Global */
+  .lg-100 {
+    width: 100%;
+  }
+  .lg-50 {
+    width: 50%;
+  }
+  .lg-33 {
+    width: 33.3333%;
+  }
+  .lg-25 {
+    width: 25%;
+  }
+  div.section-title h2 {
+    font-size: 40px;
+  }
+  div.container {
+    width: 95%;
+  }
+  div.section-title h2::before {
+    left: 408px;
+    top: 60px;
+  }
+  div.section-title h2::after {
+    left: 451px;
+    top: 55px;
+  }
+  /* Start About Section */
+  div.about div.container {
+    padding-left: 97px;
+  }
+  div.about div.container div.about-image {
+    width: 34.5%;
+  }
+  div.about div.container div.about-image div.border-image {
+    border: 8px solid #555;
+  }
+  div.about div.container div.about-image div.border-image div.image-container {
+    transform: translate(20px, 20px);
+  }
+  div.about div.container div.about-content {
+    width: 65.5%;
+    padding: 0px 0 25px 100px;
+  }
+  div.about div.container div.about-content ul li {
+    font-size: 16px;
+  }
+  div.about div.container div.about-content div.about-description p {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+  /* End About Section */
+  /* Start Portfolio Section */
+  div.portfolio div.container div.section-title h2::before {
+    top: 60px;
+  }
+  div.portfolio div.portfolio-number-talk div.container div.number-talk-data {
+    padding-block: 107px;
+  }
+  /* End Portfolio Section */
+  /* Start Testimonel Section */
+  div.testimonel-item {
+    width: 66%;
+  }
+  div.testimonel-item div.testimonel-image {
+    width: 20%;
+  }
+  div.testimonel-item div.testimonel-content {
+    width: 70%;
+    padding: 27px 0 57px 20px;
+  }
+  /* End Testimonel Section */
+  /* Start Contact Us Section */
+  div.contact div.container div.section-title h2::before {
+    left: 230px;
+  }
+  div.contact div.container div.section-title h2::after {
+    left: 273px;
+  }
+  div.contact div.container {
+    width: 60%;
+  }
+  div.contact div.container form div.row div.column {
+    width: 50%;
+  }
+  div.contact div.container form div.row div.input-name {
+    margin-right: 15px;
+  }
+  div.contact div.container form div.row div.input-mail {
+    margin-left: 15px;
+  }
+  /* End Contact Us Section */
+  /* Start Footer Us Section */
+  div.footer div.container div.footer-icon ul li {
+    width: 3.2%;
+  }
+  div.footer {
+    padding: 50px;
+  }
+  /* End Footer Us Section */
+}
+/* xl */
+@media screen and (min-width: 1280px) {
+  /* Global */
+  .xl-100 {
+    width: 100%;
+  }
+  .xl-50 {
+    width: 50%;
+  }
+  .xl-33 {
+    width: 33.3333%;
+  }
+  .xl-25 {
+    width: 25%;
+  }
+  div.container {
+    width: 61%;
+  }
+  div.section-title h2::before {
+    left: 498px;
+  }
+  div.section-title h2::after {
+    left: 544px;
+  }
+  /* About Section */
+  .margin-between-sections {
+    margin-block: 50px 80px;
+  }
+  /* Start services Style */
+  div.services div.container div.service-item {
+    padding-inline: 15px;
+  }
+  /* End services Style */
+  /* Start Contact Us Style */
+  div.contact div.container div.section-title h2::after {
+    left: 346px;
+  }
+      div.contact div.container div.section-title h2::before
+ {
+  left: 300px;
+ }
+  div.contact div.container {
+    width: 40%;
+    padding-left: 0;
+  }
+  /* End Contact Us Style */
+}
+
+/* xxl */
+@media screen and (min-width: 1536px) {
+  /* Global */
+  .xxl-100 {
+    width: 100%;
+  }
+  .xxl-50 {
+    width: 50%;
+  }
+  .xxl-33 {
+    width: 33.3333%;
+  }
+  .xxl-25 {
+    width: 25%;
+  }
+}
